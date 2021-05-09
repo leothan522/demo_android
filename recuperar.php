@@ -37,7 +37,7 @@ if (empty($_POST['email'])) {
         $mail->Port = 587;
 
         // Destinatario
-        $mail->setFrom(EMAIL_SENDER, 'ALGUARISA');
+        $mail->setFrom(EMAIL_SENDER, 'MAXICALISTOS');
         $mail->addAddress($_POST['email']);
 
         // Mensaje
